@@ -1,0 +1,42 @@
+@import '@unocss/reset/tailwind.css' layer(tailwind-reset);
+
+@layer tailwind-base, primevue;
+
+
+
+*{
+    font-size: 13px;
+
+}
+
+
+body{
+    width:100vw;
+    min-height:100vh;
+    overflow-x:hidden;
+    font-family: 'PingAR+LT', sans-serif;
+    background-color: #FFF9F3;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 0.7rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #512425;
+    border-radius: 0.7rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FD8204;
+}
